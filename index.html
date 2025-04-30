@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şarkı Sözleri Bulucu</title>
+    <link rel="stylesheet" href="style.css"> <!-- CSS dosyasını bağla -->
+</head>
+<body>
+    <div class="container">
+        <h1> &#x1F3B5 Şarkı Sözlerini Bul &#x1F3B5; </h1> 
+
+        <div class="form-container">
+            <input type="text" id="artist" placeholder="Sanatçı adı girin" />
+            <input type="text" id="song" placeholder="Şarkı adı girin" />
+            <button onclick="getLyrics()">Şarkı Sözlerini Getir</button>
+        </div>
+        <div id="lyrics">
+            <!-- Şarkı sözleri burada görünecek -->
+        </div>
+        <div class="music-buttons" id="musicButtons" style="display:none;">
+            <a href="#" id="spotifyLink" target="_blank">Spotify'da Dinle</a>
+            <a href="#" id="youtubeLink" class="youtube" target="_blank">YouTube'da Dinle</a>
+        </div>
+    </div>
+
+    <script src="app.js"></script> <!-- JavaScript dosyasını bağla -->
+</body>
+</html>
+
+
+
+
+
+
+
+
